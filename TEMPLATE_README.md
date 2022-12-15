@@ -1,33 +1,30 @@
-# Title
+# Microsoft Movies data analysis project
 
-**Authors**: Student1, Student2
+**Authors**: Ngoc Ho
 
 ## Overview
-
-A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
+This project analyses the movies market using data from IBDM database, Box office Mojo and The Numbers. Descriptive data analysis of title rating and domestic/worldwide gross income showed the most popular and top gross movie genre are Action, Adventure and Sci-Fi with median runtime between 80-100 minutes. This data analysis showed the profit varies seasonally and the most profitable season is Summer. The budget required to make a movie around 30 millions. Results from this data analyis can guide Microsoft's decision on genre of movies, production budget and release timeline. 
 
 ## Business Problem
+Microsoft is interested in starting up a movie studio however they lack knowledge about the movie market. They would like to know which movie is doing well to help them decide which movie to create. By finding out which genre has the highest rating and has the most gross income domestically and internationally which give Microsoft insights to decide which genre of film to make, set budget and release date for maximum profit. 
 
-Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
+To successfully set up a new movie studio, we have to consider:
+- Components of the film such as genre, runtime, casts, crews 
+- Business aspects such as budget, profit margin
+- Strategy aspects such as best time to release, marketing strategies, etc,.
 
-***
-Questions to consider:
-* What are the business's pain points related to this project?
-* How did you pick the data analysis question(s) that you did?
-* Why are these questions important from a business perspective?
-***
+Data analytic questions that might help explores the these points:
+- Which movie genres has highest rating/most popular?
+- Which movie genres has high grossing? Which current studio is making top grossing movies?
+- What is a typical runtime of top rating movies?
+- Which season best to release a movie?
+- What is the average budget for a movies?
+- Does higher budget correlates to higher profit?
 
 ## Data
 
-Describe the data being used for this project.
+The internet movie database (IMDb) is an online database of information related to films, televison series, home videos, video games and streaming content online. This database includes title, genre, ratings and number of votes. the IMDb database is updated daily. We also used data from IMDb subsidiary Box Office Mojo and The number database for movie financial details such as release date, budgets, domestic and worldside box office gross. Our target variable are genre, average rating and number of votes to determine which genre is most popular and has high rating. We also target variables such as domestic, worldwide box office gross and budget to identify most profitable genre and which release season optimise profit. We will be utilising pandas functions to find means, median, count correllation and trends to establish relationship between variables. Seaborn and matplotlib will helps us transform our analysed results into visualisation to help aid understanding of our dataset and decision making. 
 
-***
-Questions to consider:
-* Where did the data come from, and how do they relate to the data analysis questions?
-* What do the data represent? Who is in the sample and what variables are included?
-* What is the target variable?
-* What are the properties of the variables you intend to use?
-***
 
 ## Methods
 
