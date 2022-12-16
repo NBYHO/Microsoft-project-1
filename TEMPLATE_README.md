@@ -82,7 +82,7 @@ For each dataset we apply the following process:
 5. Investigation into the relationship of budget and net profit showed a weak correlation ( r= 0.01) between production budget and domestic profit yet there is a  mild- moderately positive correlation (r=0.61) between production budget and worldwide profit.
 
 ### Visual 5: Correlation between budget and profit
-![graph5](fig_10.png)
+![graph5](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_10.png)
 
 
 ## Conclusions
