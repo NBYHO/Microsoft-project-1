@@ -1,4 +1,4 @@
-![image1](RT_300EssentialMovies_700X250.jpeg)
+![image1](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/RT_300EssentialMovies_700X250.jpeg)
 # Microsoft Movies data analysis project
 
 **Authors**: Ngoc Ho
