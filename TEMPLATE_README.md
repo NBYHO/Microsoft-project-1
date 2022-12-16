@@ -53,11 +53,11 @@ For each dataset we apply the following process:
     
     2.1. Data cleaning 
         
-        a. check for null values and replace them appropriately 
+      a. check for null values and replace them appropriately 
         
-        b. check for duplicates and deal with them accordingling 
+      b. check for duplicates and deal with them accordingling 
         
-        c. renaming columns and drop irrelevant columns 
+      c. renaming columns and drop irrelevant columns 
     
     2.2. Merging dataframes to group target variables together in order to perform functions and study their relationship
 
@@ -75,7 +75,7 @@ For each dataset we apply the following process:
 1. The top 5 most common genres of movies are, Documentary, Drama, Comedy, Horror, Comedy/Drama however Action,Adventure,Sci-Fi is the genre with the highest votes in movies with average rating >=8. It also has the highest gross domestically and globally.
 
 ### Visual 1: Top 5 genres with highest votes and average rating>=8
-<img src="https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_1.png" width="500" height="500">
+![graph1](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_1.png)
 
 ### Visual 2: Top 10 genres with highest gross domestically and globally
 ![graph2](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_2.png)
