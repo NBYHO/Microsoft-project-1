@@ -1,3 +1,4 @@
+![image1](RT_300EssentialMovies_700X250.jpeg)
 # Microsoft Movies data analysis project
 
 **Authors**: Ngoc Ho
@@ -42,9 +43,9 @@ Target variables: production budget, domestic, worldwide gross and release date.
 We will be utilising pandas functions to find means, median, count correllation and trends to establish relationship between variables. Seaborn and matplotlib will helps us transform our analysed results into visualisation to help aid understanding results and draw conclusions.  
 
 For each dataset we apply the following process:
-1. Data exploration: 
-    1.1 import data csv using pd.read_csv()
-    2.1 Display and inspect dataframe using .head() and .info()
+1. Data exploration:*** 
+    1.1 import data csv using pd.read_csv()***
+    2.1 Display and inspect dataframe using .head() and .info()***
 2. Data preparation 
     2.1. Data cleaning 
         a. check for null values and replace them appropriately 
@@ -58,17 +59,31 @@ For each dataset we apply the following process:
     3.4 Lastly we investigate which season of the year is the most profitable to release a movie base on domestic and worlwide gross variables in The Numbers dataframe. We use return on investment (ROI) formula to measure a movie's performance. We also find a typical budget for a high rated movies and explore the correlation between production budget and profit using regression plot.  
 
 ## Results
-1. The top 5 most common genres of movies are, Documentary, Drama, Comedy, Horror, Comedy/Drama however Action,Adventure,Sci-Fi is the top grossing movie. It is also the genre with the highest votes in movies with average rating >=8. 
+1. The top 5 most common genres of movies are, Documentary, Drama, Comedy, Horror, Comedy/Drama however Action,Adventure,Sci-Fi is the genre with the highest votes in movies with average rating >=8. It also has the highest gross domestically and globally.
+
+### Visual 1: Top 5 genres with highest votes and average rating>=8
+![graph1](fig_1.png)
+
+### Visual 2: Top 10 genres with highest gross domestically and globally
+![graph2](fig_2.png)
+
 2. The typical runtime for movies with average rating >=8 is 87 minutes. Histogram of runtime of all movies with average rating >=8 showed most movies concentrate around 80-100 minutes. 
+
+### Visual 3: Typical runtime for movies with average rating >=8
+![graph3](hist.png)
+
 3. Summer has the highest median ROI (103% globally and 7% domestically while all other season's ROI are negative domestically)
+
+### Visual 4: Return on Investment by season
+![graph4](bar.png)
+
 4. On average, production budget of movies is between 15-20 millions USD however top 20% profitable movies domestically and globally has median budget about 30 millions and 57.75 millions respectively.
+
 5. Investigation into the relationship of budget and net profit showed a weak correlation ( r= 0.01) between production budget and domestic profit yet there is a  mild- moderately positive correlation (r=0.61) between production budget and worldwide profit.
 
+### Visual 5: Correlation between budget and profit
+![graph5](fig_10.png)
 
-Here is an example of how to embed images from your sub-folder:
-
-### Visual 1
-![graph1](./images/viz1.png)
 
 ## Conclusions
 
@@ -91,9 +106,9 @@ This analysis leads to 3 recommendations for Microsoft new movie studio:
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](dsc-phase1-project-template.final.ipynb) or our [presentation](DS_Project_Presentation.pdf).
 
-For any additional questions, please contact **name & email, name & email**
+For any additional questions, please contact **Ngoc Ho, yen.ho993@gmail.com**
 
 ## Repository Structure
 
