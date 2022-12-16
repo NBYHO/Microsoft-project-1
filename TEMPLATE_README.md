@@ -65,7 +65,7 @@ For each dataset we apply the following process:
 ![graph1](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_1.png)
 
 ### Visual 2: Top 10 genres with highest gross domestically and globally
-![graph2]()
+![graph2](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_2.png)
 
 2. The typical runtime for movies with average rating >=8 is 87 minutes. Histogram of runtime of all movies with average rating >=8 showed most movies concentrate around 80-100 minutes. 
 
