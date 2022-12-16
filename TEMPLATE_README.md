@@ -70,7 +70,7 @@ For each dataset we apply the following process:
 2. The typical runtime for movies with average rating >=8 is 87 minutes. Histogram of runtime of all movies with average rating >=8 showed most movies concentrate around 80-100 minutes. 
 
 ### Visual 3: Typical runtime for movies with average rating >=8
-![graph3](hist.png)
+![graph3](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/hist.png)
 
 3. Summer has the highest median ROI (103% globally and 7% domestically while all other season's ROI are negative domestically)
 
