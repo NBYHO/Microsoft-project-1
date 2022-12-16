@@ -102,7 +102,7 @@ This analysis leads to 3 recommendations for Microsoft new movie studio:
 - Analyse other performance metrics such as critic, reviews and investigate other databases. This will help predicting a movie performance/profitablity and budget more accurately 
 - Analysing runtime, average rating and profit. This will help establish whether runtime would affect user rating or generate more profit. 
 - Analysing data on directors, writers, actors and crews. This would allow more efficiency to for staff recruitment, recruiting the right person  
-- Research in competitors business model. This would allow us to have insights into their competitor business model to help build our own. 
+- Research in competitors business model. This would allow us to have insights into their competitor business model to help build our business.
 
 ## For More Information
 
