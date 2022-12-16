@@ -43,26 +43,39 @@ Target variables: production budget, domestic, worldwide gross and release date.
 We will be utilising pandas functions to find means, median, count correllation and trends to establish relationship between variables. Seaborn and matplotlib will helps us transform our analysed results into visualisation to help aid understanding results and draw conclusions.  
 
 For each dataset we apply the following process:
-1. Data exploration:*** 
-    1.1 import data csv using pd.read_csv()***
+1. Data exploration:  
+    
+    1.1 import data csv using pd.read_csv()  
+    
     2.1 Display and inspect dataframe using .head() and .info()***
+
 2. Data preparation 
+    
     2.1. Data cleaning 
+        
         a. check for null values and replace them appropriately 
+        
         b. check for duplicates and deal with them accordingling 
+        
         c. renaming columns and drop irrelevant columns 
+    
     2.2. Merging dataframes to group target variables together in order to perform functions and study their relationship
- 3. Data modelling 
+
+3. Data modelling 
+    
     3.1 To find which genre is the most popular with high rating, we merged title.basics and title.rating and limit only genres with rating >= 8 then find the genre with the highest number of votes. 
+    
     3.2 To find the typical runtime of high performing movies we find the median runtime of all movies with rating >=8 and also use histogram to visualise which timeframe most movies concentrate. 
-    3.3 We then merge title.basics, title.rating and bom.movie_gross to investigate which movie genre has highest gross with high rating and number of votes 
-    3.4 Lastly we investigate which season of the year is the most profitable to release a movie base on domestic and worlwide gross variables in The Numbers dataframe. We use return on investment (ROI) formula to measure a movie's performance. We also find a typical budget for a high rated movies and explore the correlation between production budget and profit using regression plot.  
+   
+   3.3 We then merge title.basics, title.rating and bom.movie_gross to investigate which movie genre has highest gross with high rating and number of votes 
+   
+   3.4 Lastly we investigate which season of the year is the most profitable to release a movie base on domestic and worlwide gross variables in The Numbers dataframe. We use return on investment (ROI) formula to measure a movie's performance. We also find a typical budget for a high rated movies and explore the correlation between production budget and profit using regression plot.  
 
 ## Results
 1. The top 5 most common genres of movies are, Documentary, Drama, Comedy, Horror, Comedy/Drama however Action,Adventure,Sci-Fi is the genre with the highest votes in movies with average rating >=8. It also has the highest gross domestically and globally.
 
 ### Visual 1: Top 5 genres with highest votes and average rating>=8
-![graph1](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_1.png)
+<img src="https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_1.png" width="100" height="100">
 
 ### Visual 2: Top 10 genres with highest gross domestically and globally
 ![graph2](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_2.png)
