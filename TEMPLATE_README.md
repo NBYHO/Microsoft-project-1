@@ -1,3 +1,4 @@
+![image1](RT_300EssentialMovies_700X250.jpeg)
 # Microsoft Movies data analysis project
 
 **Authors**: Ngoc Ho
@@ -42,9 +43,9 @@ Target variables: production budget, domestic, worldwide gross and release date.
 We will be utilising pandas functions to find means, median, count correllation and trends to establish relationship between variables. Seaborn and matplotlib will helps us transform our analysed results into visualisation to help aid understanding results and draw conclusions.  
 
 For each dataset we apply the following process:
-1. Data exploration: 
-    1.1 import data csv using pd.read_csv()
-    2.1 Display and inspect dataframe using .head() and .info()
+1. Data exploration:*** 
+    1.1 import data csv using pd.read_csv()***
+    2.1 Display and inspect dataframe using .head() and .info()***
 2. Data preparation 
     2.1. Data cleaning 
         a. check for null values and replace them appropriately 
