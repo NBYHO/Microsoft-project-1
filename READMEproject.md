@@ -119,7 +119,7 @@ This analysis leads to 3 recommendations for Microsoft new movie studio:
 
 ## For More Information
 
-Please review my full analysis in [our Jupyter Notebook](Microsoft movies analysis notebook.ipynb) or my [presentation](Project Presentation.pdf).
+Please review my full analysis in [my Jupyter Notebook](https://github.com/NBYHO/Microsoft-project-1/blob/main/Microsoft%20movies%20analysis%20notebook.ipynb) or my [presentation](https://github.com/NBYHO/Microsoft-project-1/blob/main/Project%20Presentation.pdf).
 
 For any additional questions, please contact **Ngoc Ho, yen.ho993@gmail.com**
 
