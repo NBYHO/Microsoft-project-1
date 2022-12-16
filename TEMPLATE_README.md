@@ -75,7 +75,7 @@ For each dataset we apply the following process:
 1. The top 5 most common genres of movies are, Documentary, Drama, Comedy, Horror, Comedy/Drama however Action,Adventure,Sci-Fi is the genre with the highest votes in movies with average rating >=8. It also has the highest gross domestically and globally.
 
 ### Visual 1: Top 5 genres with highest votes and average rating>=8
-<img src="https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_1.png" width="1000" height="1000">
+<img src="https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_1.png" width="500" height="500">
 
 ### Visual 2: Top 10 genres with highest gross domestically and globally
 ![graph2](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_2.png)
