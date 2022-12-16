@@ -75,7 +75,7 @@ For each dataset we apply the following process:
 3. Summer has the highest median ROI (103% globally and 7% domestically while all other season's ROI are negative domestically)
 
 ### Visual 4: Return on Investment by season
-![graph4](bar.png)
+![graph4](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/bar.png)
 
 4. On average, production budget of movies is between 15-20 millions USD however top 20% profitable movies domestically and globally has median budget about 30 millions and 57.75 millions respectively.
 
