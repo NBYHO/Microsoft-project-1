@@ -1,7 +1,7 @@
 ![image1](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/RT_300EssentialMovies_700X250.jpeg)
 # Microsoft Movies data analysis project
 
-**Authors**: Ngoc Ho
+**Author**: Ngoc Ho
 
 ## Overview
 This project analyses the movies market using data from IBDM database, Box office Mojo and The Numbers. Descriptive data analysis of title rating and domestic/worldwide gross showed the most popular and top gross movie genre are Action, Adventure and Sci-Fi with median runtime between 80-100 minutes. This data analysis showed the profit varies seasonally and the most profitable season is Summer. The budget required to make a movie around 30 millions. Results from this data analyis can guide Microsoft's decision on genre of movies, production budget and release timeline. 
