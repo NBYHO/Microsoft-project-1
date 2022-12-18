@@ -74,27 +74,27 @@ For each dataset we apply the following process:
 ## Results
 1. The top 5 most common genres of movies are, Documentary, Drama, Comedy, Horror, Comedy/Drama however Action,Adventure,Sci-Fi is the genre with the highest votes in movies with average rating >=8. It also has the highest gross domestically and globally.
 
-### Visual 1: Top 5 genres with highest votes and average rating>=8
+#### Visual 1: Top 5 genres with highest votes and average rating>=8
 ![graph1](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_1.png)
 
-### Visual 1.2: Top 10 genres with highest gross domestically and globally
+#### Visual 1.2: Top 10 genres with highest gross domestically and globally
 ![graph2](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_2.png)
 
 2. The typical runtime for movies with average rating >=8 is 87 minutes. Histogram of runtime of all movies with average rating >=8 showed most movies concentrate around 80-100 minutes. 
 
-### Visual 2: Typical runtime for movies with average rating >=8
+#### Visual 2: Typical runtime for movies with average rating >=8
 ![graph3](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/hist.png)
 
 3. Summer has the highest median ROI (103% globally and 7% domestically while all other season's ROI are negative domestically)
 
-### Visual 3: Return on Investment by season
+#### Visual 3: Return on Investment by season
 ![graph4](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/bar.png)
 
 4. On average, production budget of movies is between 15-20 millions USD however top 20% profitable movies domestically and globally has median budget about 30 millions and 57.75 millions respectively.
 
 5. Investigation into the relationship of budget and net profit showed a weak correlation ( r= 0.01) between production budget and domestic profit yet there is a  mild- moderately positive correlation (r=0.61) between production budget and worldwide profit.
 
-### Visual 4: Correlation between budget and profit
+#### Visual 4: Correlation between budget and profit
 ![graph5](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_10.png)
 
 
