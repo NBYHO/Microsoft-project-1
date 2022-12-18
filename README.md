@@ -77,24 +77,24 @@ For each dataset we apply the following process:
 ### Visual 1: Top 5 genres with highest votes and average rating>=8
 ![graph1](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_1.png)
 
-### Visual 2: Top 10 genres with highest gross domestically and globally
+### Visual 1.2: Top 10 genres with highest gross domestically and globally
 ![graph2](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_2.png)
 
 2. The typical runtime for movies with average rating >=8 is 87 minutes. Histogram of runtime of all movies with average rating >=8 showed most movies concentrate around 80-100 minutes. 
 
-### Visual 3: Typical runtime for movies with average rating >=8
+### Visual 2: Typical runtime for movies with average rating >=8
 ![graph3](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/hist.png)
 
 3. Summer has the highest median ROI (103% globally and 7% domestically while all other season's ROI are negative domestically)
 
-### Visual 4: Return on Investment by season
+### Visual 3: Return on Investment by season
 ![graph4](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/bar.png)
 
 4. On average, production budget of movies is between 15-20 millions USD however top 20% profitable movies domestically and globally has median budget about 30 millions and 57.75 millions respectively.
 
 5. Investigation into the relationship of budget and net profit showed a weak correlation ( r= 0.01) between production budget and domestic profit yet there is a  mild- moderately positive correlation (r=0.61) between production budget and worldwide profit.
 
-### Visual 5: Correlation between budget and profit
+### Visual 4: Correlation between budget and profit
 ![graph5](https://github.com/NBYHO/Microsoft-project-1/blob/main/images/fig_10.png)
 
 
@@ -102,12 +102,16 @@ For each dataset we apply the following process:
 
 This analysis leads to 3 recommendations for Microsoft new movie studio:
 - **Focus on Drama, Documentary, Action/Adventure/Sci-fi movies with runtime around 80-100 minutes in Summer and Action, Animation, Adventure in Winter.** These movies tend be the highest gross domestically and internationally. They tend to have higher number of votes by audience and has decent average rating. The median runtime for movies with average rating >=8. 
+
 - **Plan release date of movies around June - August during summer break OR winter between December-Feb (Holidays season)** Movies released in summer tends to have higher return on investment (ROI) overall (103% globally and 7% domestically while all other seasons have negative ROI domestically). However data is more variable so projection might not be as accurate. Winter on the otherhand has narrower range which is less variable and boxplot showed distribution is postively skewed meaning higher frequency of higher profit. 
+
 - **Production budget around 30 millions domestically and upto 60 millions internationally** For the top 20% highest profit movies, the median production budget is 30 millions while the median production budget for all movies is around 15-20 millions.  Higher budget does not equate to higher profit as correlation between production budget is weak domestically and somewhat mildly correlated internationally. 
 
 ### Limitation:
-**Runtime:** significant nulls values. We also did not taken movies with average rating less than 8. Unclear if runtime has any effect on average rating
+**Runtime:** significant missing values. We also did not taken movies with average rating less than 8. Unclear if runtime has any effect on average rating
+
 **Data currency:** IMBd Data stops at 2018 and The numbers data stops at 2020 - having access to more recent data can help us visualise the movie industry/market in recovery period post COVID. This will help us predict future trends more accurately
+
 **Missing data:** Box office Moji bom.movie_gross has large amount of missing data in foreign gross - reduced credibility of analysis.
 
  ### Future Considerations:
